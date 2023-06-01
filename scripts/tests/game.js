@@ -17,7 +17,7 @@ function newGame() {
                 let move = e.target.getAttribute("id");
                 lightsOn(move);
                 game.playerMoves.push(move);
-                //playerTurn();
+                playerTurn();
             });
             circle.setAttribute("data-listener", "true");
         }
